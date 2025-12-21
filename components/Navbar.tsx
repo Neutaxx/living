@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-lg py-2' : 'bg-transparent py-4'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled || isOpen ? 'bg-white shadow-lg py-2' : 'bg-transparent py-4'}`}>
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
           {/* Logo */}
@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className={`text-sm font-bold uppercase tracking-wider transition-colors hover:text-living-orange ${scrolled ? 'text-living-slate' : 'text-white'}`}
+                className={`text-sm font-bold uppercase tracking-wider transition-colors hover:text-living-orange ${scrolled || isOpen ? 'text-living-slate' : 'text-white'}`}
               >
                 {link.name}
               </a>
@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-living-orange"
+            className={`md:hidden transition-colors ${scrolled || isOpen ? 'text-living-orange' : 'text-white'}`}
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={32} /> : <Menu size={32} />}
