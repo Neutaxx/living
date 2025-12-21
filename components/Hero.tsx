@@ -3,7 +3,7 @@ import { ChevronRight, ShieldCheck } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative h-screen min-h-[600px] flex items-start md:items-center bg-living-slate overflow-hidden">
+    <section className="relative h-screen min-h-[800px] md:min-h-[600px] flex items-start md:items-center bg-living-slate overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
