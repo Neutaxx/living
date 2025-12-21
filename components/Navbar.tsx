@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
             <img
-              src="/fotos/logolivingpagina.png"
+              src="/logolivingpagina.png"
               alt="Living S.A.S. Logo"
               className="h-16 md:h-20 w-auto object-contain"
             />

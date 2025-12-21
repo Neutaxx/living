@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-1">
             <div className="mb-4">
               <img
-                src="/fotos/logolivingpagina.png"
+                src="/logolivingpagina.png"
                 alt="Living S.A.S. Logo"
                 className="h-16 w-auto object-contain"
               />
