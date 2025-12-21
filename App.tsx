@@ -1,0 +1,32 @@
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import MissionVision from './components/MissionVision';
+import Services from './components/Services';
+import Security from './components/Security';
+import Clients from './components/Clients';
+import Differentials from './components/Differentials';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+
+function App() {
+  return (
+    <div className="font-sans antialiased text-gray-800 bg-white selection:bg-living-orange selection:text-white">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <MissionVision />
+        <Services />
+        <Security />
+        <Clients />
+        <Differentials />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
