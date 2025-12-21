@@ -39,7 +39,7 @@ ${formData.servicio}
  *Mensaje:*
 ${formData.mensaje}
 
----
+
 _Solicitud enviada desde www.livingsas.com_`;
 
     // Número de WhatsApp (formato internacional sin el +)
