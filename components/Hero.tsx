@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronRight, ShieldCheck } from 'lucide-react';
+import { ChevronRight, ShieldCheck, Briefcase } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -34,14 +34,18 @@ const Hero: React.FC = () => {
             Garantizamos la continuidad operativa con precisión técnica y estándares rigurosos de seguridad.
           </p>
 
-          <div className="flex flex-col gap-4">
-            <a href="#servicios" className="inline-flex items-center justify-center bg-living-darkOrange hover:bg-living-orange text-white font-bold py-4 px-6 md:px-8 rounded-sm transition-all group">
+          <div className="flex flex-col sm:flex-row flex-wrap gap-4">
+            <a href="#servicios" className="inline-flex items-center justify-center bg-living-darkOrange hover:bg-living-orange text-white font-bold py-4 px-6 md:px-8 rounded-sm transition-all group w-full sm:w-auto">
               Conoce nuestros servicios
               <ChevronRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </a>
-            <a href="#contacto" className="inline-flex items-center justify-center border-2 border-living-brown text-white hover:border-living-beige hover:text-living-beige font-bold py-4 px-6 md:px-8 rounded-sm transition-colors">
+            <a href="#contacto" className="inline-flex items-center justify-center border-2 border-living-brown text-white hover:border-living-beige hover:text-living-beige font-bold py-4 px-6 md:px-8 rounded-sm transition-colors w-full sm:w-auto">
               <ShieldCheck className="mr-2" size={20} />
               Solicitar asesoría técnica
+            </a>
+            <a href="#trabaja-con-nosotros" className="inline-flex items-center justify-center border-2 border-living-brown text-white hover:border-living-beige hover:text-living-beige font-bold py-4 px-6 md:px-8 rounded-sm transition-colors w-full sm:w-auto">
+              <Briefcase className="mr-2" size={20} />
+              ¿Quieres trabajar con nosotros?
             </a>
           </div>
 

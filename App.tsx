@@ -8,6 +8,7 @@ import Security from './components/Security';
 import Clients from './components/Clients';
 import Differentials from './components/Differentials';
 import Contact from './components/Contact';
+import WorkWithUs from './components/WorkWithUs';
 import Footer from './components/Footer';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Security />
         <Clients />
         <Differentials />
+        <WorkWithUs />
         <Contact />
       </main>
       <Footer />

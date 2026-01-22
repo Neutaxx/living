@@ -68,14 +68,24 @@ const Security: React.FC = () => {
               <span className="text-xs font-bold uppercase tracking-widest text-living-slate mt-2">Cumplimiento RETIE</span>
             </div>
 
-            <div className="bg-living-darkOrange sm:col-span-2 p-6 md:p-8 rounded-sm shadow-xl flex items-center justify-between">
-              <div>
-                <span className="block text-5xl md:text-6xl font-display font-bold text-white">0</span>
-                <span className="text-xs font-bold uppercase tracking-widest text-white/80">Accidentes Graves</span>
+            <div className="bg-living-darkOrange sm:col-span-2 p-6 md:p-8 rounded-sm shadow-xl">
+              <div className="flex items-center gap-3 mb-6">
+                <ShieldCheck className="text-white" size={32} />
+                <h3 className="text-xl md:text-2xl font-display font-bold text-white">Certificaciones ISO</h3>
               </div>
-              <div className="text-white/20">
-                <AlertTriangle size={60} className="md:hidden" />
-                <AlertTriangle size={80} className="hidden md:block" />
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-3 gap-x-2">
+                {[
+                  "ISO 9001 Calidad",
+                  "ISO 14001 Medio Ambiente",
+                  "ISO 27001 Seguridad Info.",
+                  "ISO 37001 Antisoborno",
+                  "ISO 37301 Compliance",
+                  "ISO 45001 Seguridad y Salud"
+                ].map((cert, index) => (
+                  <div key={index} className="flex items-center gap-2 text-white/90 bg-white/10 p-2 rounded-sm border border-white/10 hover:bg-white/20 transition-colors">
+                    <span className="text-xs md:text-sm font-medium">{cert}</span>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
