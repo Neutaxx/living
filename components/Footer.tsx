@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-900 pt-8 flex flex-col md:flex-row justify-between items-center text-xs">
           <p>&copy; {new Date().getFullYear()} LIVING S.A.S. Todos los derechos reservados.</p>
-          <p className="mt-2 md:mt-0">Diseño Corporativo Especializado</p>
+          <p className="mt-2 md:mt-0">Diseñado por JDNEUTA</p>
         </div>
       </div>
     </footer>

@@ -5,6 +5,7 @@ import About from './components/About';
 import MissionVision from './components/MissionVision';
 import Services from './components/Services';
 import Security from './components/Security';
+import Certificates from './components/Certificates';
 import Clients from './components/Clients';
 import Differentials from './components/Differentials';
 import Contact from './components/Contact';
@@ -17,10 +18,11 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <About />
         <MissionVision />
+        <About />
         <Services />
         <Security />
+        <Certificates />
         <Clients />
         <Differentials />
         <WorkWithUs />

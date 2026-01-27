@@ -19,8 +19,8 @@ const About: React.FC = () => {
               <div className="relative group">
                 <div className="absolute inset-0 bg-gradient-to-br from-living-orange/20 to-transparent rounded-sm transform translate-x-2 translate-y-2 group-hover:translate-x-3 group-hover:translate-y-3 transition-transform"></div>
                 <img
-                  src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                  alt="Panel de Control"
+                  src="/fotos/Trabajando2.png"
+                  alt="Equipo Living trabajando en campo"
                   className="w-full h-56 md:h-64 object-cover rounded-sm shadow-xl border-4 border-white relative z-10 group-hover:shadow-2xl transition-shadow"
                 />
               </div>
@@ -29,8 +29,8 @@ const About: React.FC = () => {
               <div className="relative group sm:mt-8">
                 <div className="absolute inset-0 bg-gradient-to-br from-living-yellow/20 to-transparent rounded-sm transform translate-x-2 translate-y-2 group-hover:translate-x-3 group-hover:translate-y-3 transition-transform"></div>
                 <img
-                  src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                  alt="Panel de Control"
+                  src="/fotos/Trabajando.png"
+                  alt="Trabajo técnico especializado"
                   className="w-full h-56 md:h-64 object-cover rounded-sm shadow-xl border-4 border-white relative z-10 group-hover:shadow-2xl transition-shadow"
                 />
               </div>
@@ -42,25 +42,25 @@ const About: React.FC = () => {
             <SectionTitle subtitle="Nuestra Empresa" title="Ingeniería de vanguardia para la infraestructura eléctrica del mañana." align="left" />
 
             <p className="text-base md:text-lg text-living-slate mb-6 font-medium">
-              <span className="text-living-orange font-bold">LIVING S.A.S.</span> es una compañía especializada en soluciones avanzadas para la construcción y mantenimiento de sistemas eléctricos en media y alta tensión, bajo estrictos protocolos de línea viva.
+              <span className="text-living-orange font-bold">Línea Viva Ingenieros S.A.S.</span> es una empresa colombiana fundada en 1997, especializada en servicios de ingeniería eléctrica, obras civiles, automatización electrónica, telecomunicaciones e intervención en sistemas avanzados.
             </p>
 
             <p className="text-sm md:text-base text-gray-600 mb-6 leading-relaxed">
-              Nuestra experiencia nos permite ejecutar proyectos de alta complejidad técnica donde la precisión y el manejo del riesgo son los pilares fundamentales. Entendemos que en el sector energético, cada segundo de continuidad cuenta.
+              Contamos con personal altamente calificado, tecnología especializada y una sólida trayectoria en el sector eléctrico, brindando soluciones seguras, confiables y eficientes a nuestros clientes.
             </p>
 
             <p className="text-sm md:text-base text-gray-600 mb-8 leading-relaxed">
-              Contamos con un equipo humano de élite, certificado internacionalmente, y tecnología de punta para asegurar que los activos de nuestros clientes operen siempre a su máxima capacidad y bajo condiciones óptimas de seguridad.
+              Disponemos de personal técnico y profesional altamente capacitado, maquinaria especializada, equipos certificados y herramientas adecuadas para la ejecución segura y eficiente de trabajos en redes eléctricas energizadas y desenergizadas.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="border-l-4 border-living-beige pl-4">
                 <h4 className="font-display font-bold text-living-brown text-base md:text-lg uppercase mb-1">Especialidad</h4>
-                <p className="text-xs md:text-sm text-gray-500">Media y Alta Tensión, Línea Viva, Ensayos Especializados.</p>
+                <p className="text-xs md:text-sm text-gray-500">Redes aéreas y subterráneas Media y Alta Tensión, Ensayos especializados.</p>
               </div>
               <div className="border-l-4 border-living-darkOrange pl-4">
                 <h4 className="font-display font-bold text-living-brown text-base md:text-lg uppercase mb-1">Compromiso</h4>
-                <p className="text-xs md:text-sm text-gray-500">Cero accidentes y máxima eficiencia operativa.</p>
+                <p className="text-xs md:text-sm text-gray-500">Seguridad, calidad y confianza en cada proyecto.</p>
               </div>
             </div>
           </div>

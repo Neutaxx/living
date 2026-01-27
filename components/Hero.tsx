@@ -30,8 +30,10 @@ const Hero: React.FC = () => {
           </h1>
 
           <p className="text-gray-300 text-base md:text-lg lg:text-xl leading-relaxed mb-8 max-w-2xl border-l-4 border-living-orange pl-4">
-            Especialistas en ingeniería eléctrica de alta potencia y mantenimiento de redes energizadas.
-            Garantizamos la continuidad operativa con precisión técnica y estándares rigurosos de seguridad.
+            Somos especialistas en ingeniería eléctrica.
+            <br />
+            <br />
+            Contamos con más de 25 años de experiencia en construcción, mantenimiento y operación de redes eléctricas energizadas y desenergizadas, con altos estándares de seguridad, calidad y eficiencia
           </p>
 
           <div className="flex flex-col sm:flex-row flex-wrap gap-4">
@@ -52,7 +54,7 @@ const Hero: React.FC = () => {
           {/* Stats / Indicators */}
           <div className="mt-12 md:mt-16 grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8 border-t border-gray-700 pt-8">
             <div className="text-center sm:text-left">
-              <span className="block text-3xl md:text-4xl font-display font-bold text-white">+15</span>
+              <span className="block text-3xl md:text-4xl font-display font-bold text-white">+25</span>
               <span className="text-xs text-living-beige uppercase tracking-wider">Años de Trayectoria</span>
             </div>
             <div className="text-center sm:text-left">
