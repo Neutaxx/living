@@ -15,7 +15,7 @@ const Clients: React.FC = () => {
     { id: 9, name: 'OXY', src: '/fotos/Clientes/OXYLOGO.png' },
     { id: 10, name: 'Petroeléctrica', src: '/fotos/Clientes/PetroelectricaLogo.png' },
     { id: 11, name: 'Schneider', src: '/fotos/Clientes/SchneiderLogo.png' },
-    { id: 12, name: 'Electricaribe', src: '/fotos/Clientes/electricaribeLogo.png' }
+    { id: 12, name: 'Parex', src: '/fotos/Clientes/ParexLogo.png' }
   ];
 
   return (

@@ -20,8 +20,9 @@ const About: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-br from-living-orange/20 to-transparent rounded-sm transform translate-x-2 translate-y-2 group-hover:translate-x-3 group-hover:translate-y-3 transition-transform"></div>
                 <img
                   src="/fotos/Trabajando2.png"
-                  alt="Equipo Living trabajando en campo"
+                  alt="Equipo técnico de LIVING S.A.S. realizando mantenimiento de redes eléctricas energizadas en campo en Colombia"
                   className="w-full h-56 md:h-64 object-cover rounded-sm shadow-xl border-4 border-white relative z-10 group-hover:shadow-2xl transition-shadow"
+                  loading="lazy"
                 />
               </div>
 
@@ -30,8 +31,9 @@ const About: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-br from-living-yellow/20 to-transparent rounded-sm transform translate-x-2 translate-y-2 group-hover:translate-x-3 group-hover:translate-y-3 transition-transform"></div>
                 <img
                   src="/fotos/Trabajando.png"
-                  alt="Trabajo técnico especializado"
+                  alt="Ingeniero eléctrico de LIVING realizando inspección técnica especializada en infraestructura de media y alta tensión"
                   className="w-full h-56 md:h-64 object-cover rounded-sm shadow-xl border-4 border-white relative z-10 group-hover:shadow-2xl transition-shadow"
+                  loading="lazy"
                 />
               </div>
             </div>

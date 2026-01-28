@@ -41,7 +41,7 @@ const Security: React.FC = () => {
                 <UserCheck className="text-living-yellow flex-shrink-0" size={28} />
                 <div>
                   <h4 className="font-bold text-base md:text-lg mb-1">Protección de Personas</h4>
-                  <p className="text-xs md:text-sm text-gray-400">Salvaguardamos la vida con FP acorde a la actividad a ejecutar y herramientas dieléctricas certificadas. Invertimos en el entrenamiento técnico continuo de nuestro personal.</p>
+                  <p className="text-xs md:text-sm text-gray-400">Salvaguardamos la vida con EPP acorde a la actividad a ejecutar y herramientas dieléctricas certificadas. Invertimos en el entrenamiento técnico continuo de nuestro personal.</p>
                 </div>
               </div>
             </div>

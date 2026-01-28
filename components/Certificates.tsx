@@ -25,7 +25,7 @@ const Certificates: React.FC = () => {
                     </h2>
                     <div className="w-20 h-1 bg-living-orange mx-auto mb-6"></div>
                     <p className="max-w-2xl mx-auto text-gray-600 leading-relaxed">
-                        Salvaguardamos la vida con FP acorde a la actividad a ejecutar y herramientas dieléctricas certificadas.
+                        Salvaguardamos la vida con EPP acorde a la actividad a ejecutar y herramientas dieléctricas certificadas.
                         Invertimos en el entrenamiento técnico continuo de nuestro personal.
                     </p>
                 </div>
@@ -48,8 +48,9 @@ const Certificates: React.FC = () => {
                             {/* Certificate Image */}
                             <img
                                 src={cert.src}
-                                alt={cert.title}
+                                alt={`${cert.title} - Certificación de calidad y seguridad de LIVING S.A.S. en ingeniería eléctrica y mantenimiento de redes en Colombia`}
                                 className="max-w-full max-h-[240px] md:max-h-[280px] w-auto h-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300 group-hover:scale-105"
+                                loading="lazy"
                             />
 
                             {/* Hover effect overlay */}
