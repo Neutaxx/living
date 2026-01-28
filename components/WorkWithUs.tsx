@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import { Send, Briefcase, User, Phone, Mail, FileText } from 'lucide-react';
+import PrivacyModal from './PrivacyModal';
 
 const WorkWithUs: React.FC = () => {
+    const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
+    const [privacyAccepted, setPrivacyAccepted] = useState(false);
+
     const [formData, setFormData] = useState({
         nombre: '',
         profesion: '',
@@ -186,10 +190,34 @@ _Solicitud enviada desde www.livingsas.com_`;
                                 </div>
                             </div>
 
+                            {/* Privacy Checkbox */}
+                            <div className="md:col-span-2">
+                                <label className="flex items-start gap-3 cursor-pointer">
+                                    <input
+                                        type="checkbox"
+                                        checked={privacyAccepted}
+                                        onChange={(e) => setPrivacyAccepted(e.target.checked)}
+                                        className="mt-1 w-4 h-4 text-living-orange border-gray-300 rounded focus:ring-living-orange cursor-pointer"
+                                        required
+                                    />
+                                    <span className="text-sm text-gray-600">
+                                        Autorizo el tratamiento de mis datos personales conforme a la{' '}
+                                        <button
+                                            type="button"
+                                            onClick={() => setIsPrivacyModalOpen(true)}
+                                            className="text-living-orange hover:text-living-darkOrange font-bold underline"
+                                        >
+                                            Política
+                                        </button>.
+                                    </span>
+                                </label>
+                            </div>
+
                             <div className="md:col-span-2">
                                 <button
                                     type="submit"
-                                    className="bg-living-orange hover:bg-living-darkOrange text-white font-bold py-3 md:py-4 px-6 md:px-8 rounded-sm w-full transition-colors flex items-center justify-center uppercase tracking-widest text-xs md:text-sm"
+                                    disabled={!privacyAccepted}
+                                    className="bg-living-orange hover:bg-living-darkOrange text-white font-bold py-3 md:py-4 px-6 md:px-8 rounded-sm w-full transition-colors flex items-center justify-center uppercase tracking-widest text-xs md:text-sm disabled:opacity-50 disabled:cursor-not-allowed"
                                 >
                                     Enviar Postulación por WhatsApp
                                     <Send size={16} className="ml-2" />
@@ -199,6 +227,11 @@ _Solicitud enviada desde www.livingsas.com_`;
                     </div>
                 </div>
             </div>
+
+            <PrivacyModal
+                isOpen={isPrivacyModalOpen}
+                onClose={() => setIsPrivacyModalOpen(false)}
+            />
         </section>
     );
 };

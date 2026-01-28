@@ -25,7 +25,7 @@ const Security: React.FC = () => {
                 <Shield className="text-living-darkOrange flex-shrink-0" size={28} />
                 <div>
                   <h4 className="font-bold text-base md:text-lg mb-1">Protocolos de Línea Viva</h4>
-                  <p className="text-xs md:text-sm text-gray-400">Certificación bajo estándares globales OSHA y NFPA 70E. Implementamos procesos estandarizados de alta precisión para mitigar el riesgo eléctrico y garantizar la seguridad en trabajos de altura.</p>
+                  <p className="text-xs md:text-sm text-gray-400">Certificación bajo estándares globales OSHA, IEEE 516 y NFPA 70E. Implementamos procesos estandarizados de alta precisión para mitigar el riesgo eléctrico y garantizar la seguridad en trabajos de altura.</p>
                 </div>
               </div>
 

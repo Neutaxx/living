@@ -15,7 +15,11 @@ const Clients: React.FC = () => {
     { id: 9, name: 'OXY', src: '/fotos/Clientes/OXYLOGO.png' },
     { id: 10, name: 'Petroeléctrica', src: '/fotos/Clientes/PetroelectricaLogo.png' },
     { id: 11, name: 'Schneider', src: '/fotos/Clientes/SchneiderLogo.png' },
-    { id: 12, name: 'Parex', src: '/fotos/Clientes/ParexLogo.png' }
+    { id: 12, name: 'Parex', src: '/fotos/Clientes/ParexLogo.png' },
+    { id: 13, name: 'Gran Tierra Energy', src: '/fotos/Clientes/grantierraenergyLogo.png' },
+    { id: 14, name: 'Mansarovar', src: '/fotos/Clientes/MansarovarLogo.png' },
+    { id: 15, name: 'Geopark', src: '/fotos/Clientes/GeoparkLogo.png' },
+    { id: 16, name: 'Sierracol', src: '/fotos/Clientes/SierracolLogo.png' }
   ];
 
   return (

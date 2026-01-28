@@ -44,7 +44,7 @@ const About: React.FC = () => {
             <SectionTitle subtitle="Nuestra Empresa" title="Sobre nosotros:" align="left" />
 
             <p className="text-base md:text-lg text-living-slate mb-6 font-medium">
-              <span className="text-living-orange font-bold">Línea Viva Ingenieros S.A.S.</span> es una empresa colombiana fundada en 1997, especializada en servicios de ingeniería eléctrica, obras civiles, automatización electrónica, telecomunicaciones e intervención en sistemas avanzados.
+              <span className="text-living-orange font-bold">Línea Viva Ingenieros S.A.S.</span> es una empresa colombiana fundada en 1997, especializada en servicios de ingeniería eléctrica, obras civiles, automatización, telecomunicaciones e intervención en sistemas avanzados.
             </p>
 
             <p className="text-sm md:text-base text-gray-600 mb-6 leading-relaxed">

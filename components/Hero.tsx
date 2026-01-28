@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 bg-living-lightSlate/50 border border-living-orange/30 rounded-full px-4 py-1 mb-6 backdrop-blur-sm">
             <span className="w-2 h-2 rounded-full bg-living-yellow animate-pulse"></span>
-            <span className="text-living-orange text-xs font-bold tracking-widest uppercase">Líderes en Alta Tensión y Línea Viva</span>
+            <span className="text-living-orange text-xs font-bold tracking-widest uppercase">Líderes en línea viva e inspecciones</span>
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-display font-bold text-white leading-tight mb-6">
