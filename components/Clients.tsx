@@ -44,8 +44,9 @@ const Clients: React.FC = () => {
 
               <img
                 src={client.src}
-                alt={client.name}
+                alt={`Logo de ${client.name} - Cliente de LIVING S.A.S. en servicios de ingeniería eléctrica y mantenimiento de redes en Colombia`}
                 className="max-w-full max-h-[80px] md:max-h-[100px] w-auto h-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300 group-hover:scale-110"
+                loading="lazy"
               />
 
               {/* Hover effect overlay */}
