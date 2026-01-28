@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { COMPANY_INFO } from '../constants';
-import { Facebook, Linkedin, Instagram } from 'lucide-react';
+import { Facebook, Linkedin } from 'lucide-react';
 import PrivacyModal from './PrivacyModal';
 
 const Footer: React.FC = () => {
@@ -25,9 +25,8 @@ const Footer: React.FC = () => {
                 {COMPANY_INFO.slogan}
               </p>
               <div className="flex gap-4">
-                <a href="#" className="hover:text-living-orange transition-colors"><Linkedin size={20} /></a>
-                <a href="#" className="hover:text-living-orange transition-colors"><Facebook size={20} /></a>
-                <a href="#" className="hover:text-living-orange transition-colors"><Instagram size={20} /></a>
+                <a href="https://www.linkedin.com/company/living-sas-colombia/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BvF9r%2FsHZQS6KldQowwII6Q%3D%3D" target="_blank" rel="noopener noreferrer" className="hover:text-living-orange transition-colors" aria-label="LinkedIn"><Linkedin size={20} /></a>
+                <a href="https://www.facebook.com/profile.php?id=61587121775224" target="_blank" rel="noopener noreferrer" className="hover:text-living-orange transition-colors" aria-label="Facebook"><Facebook size={20} /></a>
               </div>
             </div>
 
