@@ -29,7 +29,7 @@ const Services: React.FC = () => {
                     <Icon size={32} className="text-living-darkOrange group-hover:text-white hidden md:block" />
                   </div>
                   <div className="text-4xl md:text-5xl font-display font-bold text-gray-100 group-hover:text-living-beige/30 transition-colors select-none">
-                    0{index + 1}
+                    {index + 1 >= 10 ? index + 1 : `0${index + 1}`}
                   </div>
                 </div>
 
