@@ -3,16 +3,16 @@ import { Target, Eye, Heart } from 'lucide-react';
 
 const MissionVision: React.FC = () => {
   const values = [
-    { name: 'Ética', description: 'Valor supremo que rige la conducta de todo ser humano' },
-    { name: 'Lealtad', description: 'Confianza depositada en cada ser' },
-    { name: 'Confianza', description: 'Fe depositada en cada persona' },
-    { name: 'Autenticidad', description: 'Manifestación espontánea de la conducta' },
-    { name: 'Honestidad', description: 'Virtud que refleja integridad y justicia personal' },
-    { name: 'Colaboración', description: 'Disposición en querer realizar actividades en equipo' },
-    { name: 'Respeto', description: 'Valorar a cada persona en todos sus aspectos' },
-    { name: 'Compromiso', description: 'Disposición auténtica y profunda hacia objetivos' },
-    { name: 'Proactividad', description: 'Actitud que acompaña a las personas para actuar' },
-    { name: 'Productividad', description: 'Capacidad de llevar a cabo ideas originales' }
+    { name: 'Seguridad' },
+    { name: 'Agilidad' },
+    { name: 'Eficiencia' },
+    { name: 'Confiabilidad' },
+    { name: 'Diferenciación' },
+    { name: 'Identidad' },
+    { name: 'Innovación' },
+    { name: 'Excelencia' },
+    { name: 'Responsabilidad' },
+    { name: 'Compromiso' }
   ];
 
   return (
@@ -73,12 +73,9 @@ const MissionVision: React.FC = () => {
                     </span>
                   </div>
                 </div>
-                <h4 className="font-display font-bold text-living-slate text-center mb-2 text-base group-hover:text-living-orange transition-colors">
+                <h4 className="font-display font-bold text-living-slate text-center text-base group-hover:text-living-orange transition-colors">
                   {value.name}
                 </h4>
-                <p className="text-xs text-gray-500 text-center leading-relaxed">
-                  {value.description}
-                </p>
               </div>
             ))}
           </div>

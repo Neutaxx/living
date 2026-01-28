@@ -21,7 +21,7 @@ const Certificates: React.FC = () => {
                         Reconocimientos
                     </span>
                     <h2 className="text-3xl md:text-4xl font-display font-bold text-living-slate mb-4">
-                        Certificaciones y Diplomas
+                        Certificados y Distinciones
                     </h2>
                     <div className="w-20 h-1 bg-living-orange mx-auto mb-6"></div>
                     <p className="max-w-2xl mx-auto text-gray-600 leading-relaxed">

@@ -14,7 +14,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="font-sans antialiased text-gray-800 bg-white selection:bg-living-orange selection:text-white">
+    <div className="font-sans antialiased text-gray-800 bg-white selection:bg-living-orange selection:text-white overflow-x-hidden">
       <Navbar />
       <main>
         <Hero />
