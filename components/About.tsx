@@ -52,7 +52,7 @@ const About: React.FC = () => {
             </p>
 
             <p className="text-sm md:text-base text-gray-600 mb-8 leading-relaxed">
-              Disponemos de expertos técnicos y valiosos profesionales con capacitación profunda y amplio conocimiento,, maquinaria especializada, equipos certificados y herramientas adecuadas para la ejecución segura y eficiente de trabajos en redes eléctricas energizadas y desenergizadas.
+              Disponemos de expertos técnicos y valiosos profesionales con capacitación profunda y amplio conocimiento, maquinaria especializada, equipos certificados y herramientas adecuadas para la ejecución segura y eficiente de trabajos en redes eléctricas energizadas y desenergizadas.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
